@@ -1,0 +1,186 @@
+.header h1{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-family: 'Pirata One', cursive; /* Bold pirate font for emphasis */
+    font-size: 1.5rem;
+    text-shadow: 4px 4px 6px #00000050, 0 0 10px #FFF8DC;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+.header .nav-header a{
+    text-decoration: none;
+    color:black;
+    margin-left: 15px;
+    font-size: 18px
+}
+.header .nav-header a:hover{
+    background:rgb(229, 224, 224);
+    padding: 5px
+        
+}
+.header .nav-header {
+    margin-left: 550px;
+    margin-top: -40px
+}
+.header .nav-header .logout-btn{
+    background: red;
+    padding: 5px;
+    color:white
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+    gap: 40px;
+    flex-wrap: wrap;
+    background-color: #f5f7fa;
+}
+
+.body-img .home {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(4px); /* Slightly blur the image */
+}
+
+.insert-img {
+    width: 550px;
+    height: 650px;
+    filter: blur(4px); /* Slightly blur the image */
+    margin-left:-5px;
+    margin-top:60px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.body-img .welcome-msg {
+    position: absolute;
+    top: 70%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+
+
+/* Insert form container */
+.insert-form {
+    background-color: #ffffff;
+    padding: 42px 50px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width:550px;
+    height:570px;
+    flex: 1;
+    margin-top: -695px;
+    margin-left:500px
+}
+
+/* Heading inside form */
+.insert-msg {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #2c3e50;
+    text-align: center;
+}
+
+/* Form elements */
+.insert-form label {
+    display: block;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 6px;
+    font-size: 0.95rem;
+}
+
+.insert-form input[type="text"],
+.insert-form input[type="number"] {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #fdfdfd;
+    transition: border-color 0.3s ease;
+}
+
+.insert-form input[type="text"]:focus,
+.insert-form input[type="number"]:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+/* Submit button */
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #1a252f;
+}
+
+.body-img .insert-form .back-btn{
+    text-decoration: none;
+    color:blck;
+    text-decoration: underline;
+}
+.body-img .insert-form .back-btn:hover{
+    padding:10px
+}
+.body-img .insert-form .back-btn:active {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+.main-container{
+    margin-left: 30px
+}
+
+.result .success{
+    color:white;
+    background:green;
+    height: 30px;
+    margin-top: -780px;
+    text-align: center
+}
+.result .fail{
+    color:red;
+}
+.back-btn{
+    display: block;
+    text-align: center;
+    margin: 30px auto 0;
+    margin-top: 15px;
+    width: fit-content;
+    padding: 5px;
+    background-color: #95a5a6;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
